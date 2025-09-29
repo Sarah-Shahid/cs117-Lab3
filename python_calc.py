@@ -33,10 +33,25 @@ if choice == 1:
     a = int (input ("Enter your number.\n"))
     print ("Your number:" , a )
     if a % 2 == 0:
-            print ("The number is even.")
+            print ("The number is even.\n")
     else:
-            print ("The number is odd.")
+            print ("The number is odd.\n")
 elif choice == 2: 
-    print ("You are exiting the program.")
+    print ("You are exiting the program.\n")
 else:
-     print ("Please choose from the available options.")
+     print ("Please choose from the available options.\n")
+
+#to calculate percentage.
+print ("Do you want to calculate percentage?")
+print ("1. YES")
+print ("2. NO")
+choice_2 = int (input ("Select 1 or 2.\n"))
+
+if choice_2 == 1:
+     part = float (input ("Enter the part value.\n"))
+     whole = float (input ("Enter the whole value.\n"))
+     print (f"The percentage is {part} / {whole} * 100 = { part/whole * 100 }\n")
+elif choice == 2:
+     print ("You are exiting the program.\n")
+else:
+     print ("Please choose from the available options.\n")
